@@ -165,6 +165,113 @@ iframe
     color: rgb(102, 102, 102);
 }
 
+#contactButton:hover
+{
+    border-bottom: 3px solid gray;
+}
+
+#contactUpdate:hover
+{
+    border-bottom: 3px solid gray;
+}
+
+#contactPartners:hover
+{
+    border-bottom: 3px solid gray;
+}
+
+#dropdownFalcons
+{
+    position: relative;
+    display: inline-block;
+}
+
+#dropdownTours
+{
+    position: relative;
+    display: inline-block;
+}
+
+#dropdownToursContent
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 171px;
+    background-color: gray;
+
+}
+
+#dropdownFalconsContent
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: gray;
+    width: 230px;
+
+}
+
+#dropdownFalconsContent a
+{
+    display: block;
+    padding: 10px 22px;
+}
+
+#dropdownToursContent a
+{
+    display: block;
+    padding: 10px 22px;
+}
+
+#dropdownTours:hover #dropdownToursContent
+{
+    display: block;
+}
+
+#dropdownFalcons:hover #dropdownFalconsContent
+{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
