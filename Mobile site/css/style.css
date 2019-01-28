@@ -32,6 +32,7 @@ html, body
     position: absolute;
     top: 8px;
     right: 5%;
+    user-select: none;
 }
 
 #hamburgerOtherInfo
@@ -51,6 +52,7 @@ html, body
     position: absolute;
     content:url(pagelogo.png);
     right: 80%;  
+    user-select: none;
 }
 
 #bannerbox
@@ -140,7 +142,8 @@ iframe
     background-color: #A7A9AC;
     text-align: center;
     font-size: 30px;
-
+    user-select: none;
+    cursor:pointer;
 }
 
 #video
@@ -168,16 +171,19 @@ iframe
 #contactButton:hover
 {
     border-bottom: 3px solid gray;
+    cursor:pointer;
 }
 
 #contactUpdate:hover
 {
     border-bottom: 3px solid gray;
+    cursor:pointer;
 }
 
 #contactPartners:hover
 {
     border-bottom: 3px solid gray;
+    cursor:pointer;
 }
 
 #dropdownFalcons
@@ -197,9 +203,9 @@ iframe
     display: none;
     position: absolute;
     z-index: 1;
-    width: 171px;
+    width: 230px;
     background-color: gray;
-
+    border-radius: 25px;
 }
 
 #dropdownFalconsContent
@@ -207,8 +213,9 @@ iframe
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
     width: 230px;
+    border-radius: 25px;
 
 }
 
@@ -216,12 +223,28 @@ iframe
 {
     display: block;
     padding: 10px 22px;
+    text-decoration: none;
+    color: black;
+}
+
+#dropdownFalconsContent a:hover
+{
+    background-color: rgb(180, 180, 180);
+    border-radius: 25px;
 }
 
 #dropdownToursContent a
 {
     display: block;
     padding: 10px 22px;
+    text-decoration: none;
+    color: black;
+}
+
+#dropdownToursContent a:hover
+{
+    background-color: rgb(180, 180, 180);
+    border-radius: 25px;
 }
 
 #dropdownTours:hover #dropdownToursContent
