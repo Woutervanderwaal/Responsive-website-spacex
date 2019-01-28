@@ -144,6 +144,13 @@ iframe
     font-size: 30px;
     user-select: none;
     cursor:pointer;
+    transition: 0.3s;
+}
+
+#tourButton:hover
+{
+    transition: 0.3s;
+    background-color: #005288;
 }
 
 #video
@@ -205,7 +212,8 @@ iframe
     z-index: 1;
     width: 230px;
     background-color: gray;
-    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #dropdownFalconsContent
@@ -215,7 +223,8 @@ iframe
     z-index: 1;
     background-color: rgb(128, 128, 128);
     width: 230px;
-    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
 }
 
@@ -230,7 +239,6 @@ iframe
 #dropdownFalconsContent a:hover
 {
     background-color: rgb(180, 180, 180);
-    border-radius: 25px;
 }
 
 #dropdownToursContent a
@@ -244,7 +252,7 @@ iframe
 #dropdownToursContent a:hover
 {
     background-color: rgb(180, 180, 180);
-    border-radius: 25px;
+
 }
 
 #dropdownTours:hover #dropdownToursContent
@@ -257,6 +265,11 @@ iframe
     display: block;
 }
 
+.lastLink
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
 
 
 
