@@ -9,29 +9,30 @@
 
 <body>
     <div id="navbarPhone">
-        <a id="navHamburger"><i class="fas fa-bars"></i></a>
+        <a onclick="switchOpenClose()" id="navHamburger"><i class="fas fa-bars"></i></a>
         <div id="navBarInfo">
-            <span style="margin-right: 30px"><i class="fas fa-phone"></i> (06) --- --- --</span>
-            <span style="margin-right: 30px"><i class="fab fa-whatsapp"></i> (06) --- --- --</span>
-            <span style="margin-right: 30px"><i class="far fa-clock"></i> Ma - Za: 8:00 - 22:00</span>
-            <span style="margin-right: 30px"><i class="fas fa-tachometer-alt"></i> Dashboard</span>
+            <span class="infoText" ><i class="fas fa-phone"></i> (06) --- --- --</span>
+            <span class="infoText" ><i class="fab fa-whatsapp"></i> (06) --- --- --</span>
+            <span class="infoText" ><i class="far fa-clock"></i> Ma - Za: 8:00 - 22:00</span>
+            <span class="infoText" ><i class="fas fa-tachometer-alt"></i> Dashboard</span>
             <span><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter-square"></i></span>
         </div>
     </div>
 
     <div id="navbarOtherInfo">
-        <a id="hamburgerOtherInfo"><i class="fas fa-bars"></i></a>
+        <a onclick="mobileOpenNavBar()" id="hamburgerOtherInfo"><i class="fas fa-bars"></i></a>
         <img id="theLogo" src="img/logo.png">
         <div id="buttonBlock">
+            <div onclick="exitMobileNavBar()" id="exitMobile"><i class="far fa-times-circle"></i></div>
             <div id="contactButton" class="bigButtons"><span>Contact</span></div>
             <div id="contactUpdate" class="bigButtons"><span>Updates</span></div>
             <div id="contactPartners" class="bigButtons"><span>Partners</span></div>
             <div id="dropdownFalcons" class="bigButtons">
                 <div id="contactFalcons"><span>Falcons <i class="fas fa-angle-down"></i></span></div>
                 <div id="dropdownFalconsContent">
-                    <a href="#">Factory</a>
-                    <a href="#">Launchpad</a>
-                    <a class="lastLink" href="#">Headquarters</a>
+                    <a href="#">Falcon 9</a>
+                    <a href="#">Falcon heavy</a>
+                    <a class="lastLink" href="#">Falcon 1</a>
                 </div>
             </div>
             <div id="dropdownTours" class="bigButtons">
@@ -100,8 +101,8 @@
                 </iframe>
             </div>
     </div>
-    <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 

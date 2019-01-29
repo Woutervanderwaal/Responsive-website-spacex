@@ -271,7 +271,17 @@ iframe
     border-bottom-right-radius: 10px;    
 }
 
+#exitMobile
+{
+    visibility: hidden;
+    display: none;
+}
 
+.infoText
+{
+    position: relative;
+    margin-right: 30px;
+}
 
 
 
@@ -317,16 +327,119 @@ iframe
 
 @media only screen and (max-width: 1400px) {
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #buttonBlock
 {
     display: none;
-    visibility: hidden;
+    /* visibility: hidden; */
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 2;
+    background: rgba(31, 31, 31, 0.753);
+
 }
 
 .bigButtons
 {
+    margin: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    padding: 25px 36px;
+    visibility: visible;
+    user-select: none;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    /* right: -6%; */
+    color: white;
+}
+
+#dropdownFalcons
+{
+    top: 30px;
+    position: absolute;
+}
+
+#dropdownFalcons:hover
+{
+    color: rgb(145, 145, 145);
+}
+
+#dropdownTours
+{
+    position: absolute;
+    top: 130px;
+}
+
+#dropdownTours:hover
+{
+    color: rgb(145, 145, 145);
+}
+
+#contactButton
+{
+    top: 230px;
+}
+
+#contactUpdate
+{
+    top: 330px;
+}
+
+#contactPartners
+{
+    top: 430px;
+}
+
+#contactButton:hover
+{
+    border-bottom: none;
+    cursor:pointer;
+    color: rgb(145, 145, 145);
+}
+
+#contactUpdate:hover
+{
+    border-bottom: none;
+    cursor:pointer;
+    color: rgb(145, 145, 145);
+}
+
+#contactPartners:hover
+{
+    border-bottom: none;
+    cursor:pointer;
+    color: rgb(145, 145, 145);
+}
+
+#dropdownFalconsContent
+{
     display: none;
-    visibility: hidden;
+    visibility: hidden;   
+}
+
+#dropdownToursContent
+{
+    display: none;
+    visibility: hidden;   
+}
+
+#exitMobile
+{
+    position: absolute;
+    visibility: visible;
+    display: block;
+    font-size: 34px;   
+    color: white;
+    top: 20px;
+    left: 20px;
 }
 
 #theLogo
@@ -336,8 +449,13 @@ iframe
 
 #navBarInfo
 {
+    visibility: hidden;
     display: none;
-    visibility: hidden;    
+    left: 20px;
+    top: 70px;
+    color: #005288;
+    background: rgba(128, 128, 128, 0.795);
+    text-align: center;
 }
   
 #navbarPhone
@@ -509,6 +627,14 @@ iframe
     /* top: 350px; */
     
 }
+.infoText
+{
+    position: relative;
+    margin-right: 30px;
+    width: 100%;
+    display: block;
+}
+
 
 }
 
